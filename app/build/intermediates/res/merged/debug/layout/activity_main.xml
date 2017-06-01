@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jirka.anatom.MainActivity">
+
+    <EditText
+        android:id="@+id/userNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:hint="Username"/>
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:hint="Password"
+        android:fontFamily="monospace"
+        android:layout_below="@id/userNameEditText"/>
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/passwordEditText"
+        android:text="Sign in" />
+    <Button
+        android:id="@+id/signInWithGoogleButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/signInButton"
+        android:background="#D00B0B"
+        android:text="with google+"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/signInWithFacebookButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/signInWithGoogleButton"
+        android:background="#0B40A0"
+        android:text="with facebook"
+        android:textColor="#FFFFFF"/>
+</RelativeLayout>
