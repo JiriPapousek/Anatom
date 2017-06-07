@@ -29,6 +29,8 @@ public class MainActivity extends FragmentActivity {
     Button signInButton;
     EditText userNameEditText;
     EditText passwordEditText;
+    private HTTPService service = new HTTPService();
+    int status;
 
 
     @Override
@@ -43,29 +45,62 @@ public class MainActivity extends FragmentActivity {
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final String username = userNameEditText.getText().toString();
-                final String password = passwordEditText.getText().toString();
-
-                Response.Listener<String> responseListener = new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        try {
-                            JSONObject jsonResponse = new JSONObject(response);
-                            boolean success = jsonResponse.getBoolean("success");
-                            if (success){
-                                userNameEditText.setText("Success");
-                            }
-                            else{
-                                userNameEditText.setText("Failure");
-                            }
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                };
-                LoginRequest loginRequest = new LoginRequest(username,password,responseListener);
+                login();
             }
         });
 
+    }
+
+    protected boolean login() {
+        final String username = userNameEditText.getText().toString();
+        final String password = passwordEditText.getText().toString();
+
+        new UserLoginTask(username,password).execute();
+
+        while (status==0){}
+
+        if (status==200){
+            userNameEditText.setText("Success");
+        }
+        else{
+            userNameEditText.setText("Failure "+status);
+        }
+
+        return false;
+    }
+
+    public class UserLoginTask extends AsyncTask<Void, Void, Boolean> {
+
+        private final String username;
+        private final String password;
+
+        UserLoginTask(String username, String password) {
+            this.username = username;
+            this.password = password;
+        }
+
+        private Exception exception;
+
+        @Override
+        protected Boolean doInBackground(Void... params) {
+            status = 0;
+            try {
+                JSONObject loginData = new JSONObject();
+                System.out.println(password+" "+username);
+                try {
+                    loginData.put("username", username);
+                    loginData.put("password", password);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                System.out.println(loginData.toString());
+                status = service.post(Constants.SERVER_NAME + "user/login/", loginData.toString());
+            } catch (Exception e) {
+                this.exception = e;
+            }
+            System.out.println(status);
+            if (status == 200) return true;
+            else return false;
+        }
     }
 }
