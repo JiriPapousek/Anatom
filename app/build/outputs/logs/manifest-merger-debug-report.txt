@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml
@@ -38,7 +38,7 @@ ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManif
 	android:name
 		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:9:22-76
 application
-ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:11:5-25:19
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:11:5-28:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:29:5-20
@@ -73,6 +73,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:22:27-74
+activity#com.example.jirka.anatom.LoginActivity
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:25:9-27:20
+	android:name
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:25:19-48
 uses-sdk
 INJECTED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78

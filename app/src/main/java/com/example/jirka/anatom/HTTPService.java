@@ -82,6 +82,9 @@ public class HTTPService {
             conn.setDoOutput(true);
             conn.setRequestProperty("Cookie", cookieString);
             conn.setRequestProperty("X-" + "csrftoken", cookies.get("csrftoken"));
+            System.out.println(cookies.get("csrftoken"));
+            System.out.println(cookieString);
+            System.out.println(cookies.toString());
             conn.setRequestProperty("X-" + "sessionid", cookies.get("sessionid"));
             conn.setRequestProperty("Accept", "application/json, text/plain, */*");
             conn.setRequestProperty("Content-Type", "application/json;charset=utf-8");
@@ -116,7 +119,7 @@ public class HTTPService {
     }
 
 
-    public int createSesion() {
+    public int createSession() {
         URL url;
         String response = "";
         String line;
