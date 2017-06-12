@@ -33,7 +33,7 @@
         android:layout_marginTop="8dp"
         android:layout_below="@id/passwordEditText"
         android:text="Sign in" />
-    <Button
+    <com.google.android.gms.common.SignInButton
         android:id="@+id/signInWithGoogleButton"
         android:layout_width="match_parent"
         android:layout_height="55dp"

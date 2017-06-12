@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/res/values/values.xml",
+                    "file": "/home/jirka/.android/build-cache/57a8290a788d0f4be4883884066e1bebb51e9839/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

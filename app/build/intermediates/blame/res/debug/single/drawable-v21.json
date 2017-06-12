@@ -1,34 +1,34 @@
 [
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable-v21/avd_show_password.xml"
+        "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/drawable-v21/avd_show_password.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-v21/abc_btn_colored_material.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable-v21/design_password_eye.xml"
+        "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/drawable-v21/design_password_eye.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable-v21/avd_hide_password.xml"
+        "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/drawable-v21/avd_hide_password.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-v21/abc_edit_text_material.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-v21/notification_action_background.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable-v21/design_bottom_navigation_item_background.xml"
+        "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     }
 ]

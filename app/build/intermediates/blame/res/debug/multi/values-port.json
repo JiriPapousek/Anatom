@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-port/values-port.xml",
+                    "file": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/values-port/values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

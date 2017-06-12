@@ -1,66 +1,66 @@
 [
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_slide_in_bottom.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_slide_out_bottom.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_slide_in_top.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/anim/abc_slide_in_top.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim/design_snackbar_out.xml"
+        "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/anim/design_snackbar_out.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_popup_enter.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim/design_bottom_sheet_slide_out.xml"
+        "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/anim/design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_slide_out_top.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/anim/abc_slide_out_top.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim/design_snackbar_in.xml"
+        "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/anim/design_snackbar_in.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_fade_in.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_popup_exit.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/anim/abc_popup_exit.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_fade_out.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/anim/abc_fade_out.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim/design_fab_in.xml"
+        "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/anim/design_fab_in.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim/design_fab_out.xml"
+        "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/anim/design_fab_out.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim/design_bottom_sheet_slide_in.xml"
+        "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/anim/design_bottom_sheet_slide_in.xml"
     }
 ]
