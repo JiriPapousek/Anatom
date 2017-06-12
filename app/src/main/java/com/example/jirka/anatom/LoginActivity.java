@@ -2,12 +2,18 @@ package com.example.jirka.anatom;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.appindexing.Thing;
+import com.google.android.gms.common.api.GoogleApiClient;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -23,6 +29,11 @@ public class LoginActivity extends FragmentActivity {
 
     private HTTPService service;
     int status;
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
 
 
     @Override
@@ -42,47 +53,20 @@ public class LoginActivity extends FragmentActivity {
                 login();
             }
         });
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
     protected void login() {
         final String username = userNameEditText.getText().toString();
         final String password = passwordEditText.getText().toString();
 
-        new UserLoginTask(username,password).execute();
-
-        //Waiting for response. Better to do somehow else.
-        while (status==0){};
-
-        if (status==200){
-            finish();
-        }
-        else if(status==401){
-            AlertDialog alertDialog = new AlertDialog.Builder(LoginActivity.this).create();
-            alertDialog.setTitle("Password or username does not match.");
-            alertDialog.setMessage("Please try again.");
-            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                    new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            dialog.dismiss();
-                        }
-                    });
-            alertDialog.show();
-        }
-        else{
-            AlertDialog alertDialog = new AlertDialog.Builder(LoginActivity.this).create();
-            alertDialog.setTitle("Something unexpected happened. (error " + status + ")");
-            alertDialog.setMessage("Please try again.");
-            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                    new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            dialog.dismiss();
-                        }
-                    });
-            alertDialog.show();
-        }
+        new UserLoginTask(username, password).execute();
     }
 
-    public class UserLoginTask extends AsyncTask<Void, Void, Void> {
+
+    public class UserLoginTask extends AsyncTask<Void, Void, Integer> {
 
         private final String username;
         private final String password;
@@ -95,7 +79,7 @@ public class LoginActivity extends FragmentActivity {
         private Exception exception;
 
         @Override
-        protected Void doInBackground(Void... params) {
+        protected Integer doInBackground(Void... params) {
             status = 0;
             service.createSession();
             try {
@@ -110,7 +94,40 @@ public class LoginActivity extends FragmentActivity {
             } catch (Exception e) {
                 this.exception = e;
             }
-            return null;
+            return status;
         }
+        @Override
+        protected void onPostExecute(Integer status) {
+            if (status == 200) {
+                finish();
+            } else if (status == 401) {
+                AlertDialog alertDialog = new AlertDialog.Builder(LoginActivity.this).create();
+                alertDialog.setTitle("Password or username does not match.");
+                alertDialog.setMessage("Please try again.");
+                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        });
+                alertDialog.show();
+            } else {
+                AlertDialog alertDialog = new AlertDialog.Builder(LoginActivity.this).create();
+                alertDialog.setTitle("Something unexpected happened. (error " + status + ")");
+                alertDialog.setMessage("Please try again.");
+                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        });
+                alertDialog.show();
+            }
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(true);
     }
 }

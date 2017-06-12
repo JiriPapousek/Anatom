@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_9e84fed2cab8af21a044d2d54ac7ec857e5f681a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -18,6 +27,15 @@
         revision="25.0.2"
         sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
         <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_25080cf84c1219eb171cfda6a89cd8493a6fea39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_0cbedd7184d706ae8fc47e14ae1d7dcf30d48ff7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,6 +66,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_01ea073724ae1f791bf6561b4b64413d0294aa18.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/jirka/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
         jumboMode="false"
         optimize="true"
@@ -75,12 +102,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_eee20e539dc1b3ad3e1343d78bfdad99b7f0f6da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_1363259cd7a4085903bea670361137af322054b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
         <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_624da8014e7058c5e038fd9bc906f185010cebe7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_41a2a7f3a7568e8e89ab94aa9137776f3f01bee3.jar" />
     </item>
     <item
         is-multidex="false"

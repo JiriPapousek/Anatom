@@ -20,12 +20,12 @@
         "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
         "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_tint_switch_thumb.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
@@ -68,6 +68,10 @@
         "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_primary_text_material_light.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/color/design_tint_password_toggle.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
         "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_secondary_text_material_light.xml"
     },
@@ -94,5 +98,9 @@
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
         "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/color/design_error.xml"
     }
 ]
