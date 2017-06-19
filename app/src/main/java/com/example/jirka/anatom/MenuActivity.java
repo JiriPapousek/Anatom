@@ -18,6 +18,8 @@ public class MenuActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
     }
+
+    /* Disables user to get back to previous activity. */
     @Override
     public void onBackPressed() {
         moveTaskToBack(true);

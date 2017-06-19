@@ -691,8 +691,27 @@
                     "startLine": 38,
                     "startColumn": 4,
                     "startOffset": 4609,
+                    "endColumn": 60,
+                    "endOffset": 4665
+                },
+                "from": {
+                    "file": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/values-in/values-in.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 60,
+                        "endOffset": 111
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 4670,
                     "endColumn": 83,
-                    "endOffset": 4688
+                    "endOffset": 4749
                 },
                 "from": {
                     "file": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/values-in/values-in.xml",
@@ -707,11 +726,11 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 4693,
+                    "startOffset": 4754,
                     "endColumn": 100,
-                    "endOffset": 4789
+                    "endOffset": 4850
                 },
                 "from": {
                     "file": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/values-in/values-in.xml",

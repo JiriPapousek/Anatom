@@ -20,16 +20,16 @@
         "source": "/home/jirka/.android/build-cache/b4ef727ab98d5285471ec9bbae16f0fd5f5877f3/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/home/jirka/.android/build-cache/b4ef727ab98d5285471ec9bbae16f0fd5f5877f3/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/home/jirka/.android/build-cache/b4ef727ab98d5285471ec9bbae16f0fd5f5877f3/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
@@ -60,6 +60,18 @@
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/abc_btn_borderless_material.xml"
     },
@@ -84,6 +96,10 @@
         "source": "/home/jirka/.android/build-cache/b4ef727ab98d5285471ec9bbae16f0fd5f5877f3/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/messenger_button_white_bg_round.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
         "source": "/home/jirka/.android/build-cache/9c9e71c0ee24db24cf5bd3917997ad574bc9c972/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
@@ -94,6 +110,10 @@
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/com_facebook_favicon_blue.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/com_facebook_favicon_blue.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
@@ -136,8 +156,16 @@
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/notification_bg_low.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_logo.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/com_facebook_button_login_logo.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
@@ -146,6 +174,10 @@
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/com_facebook_button_like_background.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
@@ -164,12 +196,20 @@
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/com_facebook_button_background.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
         "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/drawable/design_fab_background.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/com_facebook_send_button_icon.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
@@ -192,12 +232,28 @@
         "source": "/home/jirka/.android/build-cache/95baa043edf7344fdc9bf571ce9427b675b29aab/output/res/drawable/common_plus_signin_btn_text_light.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/com_facebook_button_send_background.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_background.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/com_facebook_button_login_background.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
         "source": "/home/jirka/.android/build-cache/9c9e71c0ee24db24cf5bd3917997ad574bc9c972/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/com_facebook_button_login_silver_background.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
@@ -208,8 +264,16 @@
         "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/drawable/design_password_eye.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/drawable/com_facebook_auth_dialog_header_background.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",

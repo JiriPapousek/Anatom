@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml
@@ -44,16 +44,19 @@ MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/jirka/.android/build-
 	android:name
 		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:10:22-76
 application
-ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:12:5-34:19
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:12:5-50:19
 MERGED from [com.android.volley:volley:1.0.0] /home/jirka/.android/build-cache/11b1eae243077166598e2ecd40bc2e0447516259/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] /home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/jirka/.android/build-cache/494d3128cee94a147b34cf692f6816cdc9e4c042/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/jirka/.android/build-cache/c744198bbb7fb8146c4ce7bc46e71bc43dc628c2/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.1] /home/jirka/.android/build-cache/9700d9077bf227e6da53b98e51ea644e77873f76/output/AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /home/jirka/.android/build-cache/4fc106dd0c7e0b895459e5c002285680db2700fd/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-auth:9.8.0] /home/jirka/.android/build-cache/d94785f25527214a6487cc2687c7cc3f9e57c365/output/AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.android.gms:play-services-base:9.8.0] /home/jirka/.android/build-cache/b4ef727ab98d5285471ec9bbae16f0fd5f5877f3/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/AndroidManifest.xml:28:5-48:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/jirka/.android/build-cache/494d3128cee94a147b34cf692f6816cdc9e4c042/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/jirka/.android/build-cache/c744198bbb7fb8146c4ce7bc46e71bc43dc628c2/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/jirka/.android/build-cache/0ee4bf89c9a928b49a34e33064409ad524839ea1/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] /home/jirka/.android/build-cache/254c82a72cde4322ea313060caaa09fef259ceed/output/AndroidManifest.xml:26:5-20
 MERGED from [com.google.firebase:firebase-core:9.8.0] /home/jirka/.android/build-cache/f9cbdd4e157ab254673404936683a2d239f7e3ea/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:9.8.0] /home/jirka/.android/build-cache/b67d06fec82b5cae79f9bb508656499e67aa83ca/output/AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /home/jirka/.android/build-cache/e03d054c0d3f0688edd469e0af6b56029110c901/output/AndroidManifest.xml:24:5-28:19
@@ -95,34 +98,78 @@ activity#com.example.jirka.anatom.LoginActivity
 ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:25:9-60
 	android:name
 		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:25:19-48
-activity#com.example.jirka.anatom.MenuActivity
-ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:26:9-29:68
+activity#com.facebook.FacebookActivity
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:26:9-29:48
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:28:13-56
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:29:13-45
+	android:configChanges
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:27:13-113
 	android:theme
-		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:29:13-56
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:27:13-41
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:26:19-63
+activity#com.facebook.CustomTabActivity
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:30:9-39:20
+	android:exported
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:31:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:33:13-38:29
+action#android.intent.action.VIEW
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:35:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:36:17-78
+	android:name
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:36:27-75
+data
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:37:17-75
+	android:scheme
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:37:23-72
+activity#com.example.jirka.anatom.MenuActivity
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:40:9-43:68
+	android:label
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:42:13-56
+	android:theme
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:41:13-41
 meta-data#com.google.android.gms.version
-ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:31:9-33:69
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:45:9-47:69
 MERGED from [com.google.android.gms:play-services-basement:9.8.0] /home/jirka/.android/build-cache/ba35cc597c6c2ea2bd692facd1d093b8412be923/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:33:13-66
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:47:13-66
 	android:name
-		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:32:13-58
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:46:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:48:9-49:54
+	android:value
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:49:13-52
+	android:name
+		ADDED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml:48:20-65
 uses-sdk
 INJECTED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.volley:volley:1.0.0] /home/jirka/.android/build-cache/11b1eae243077166598e2ecd40bc2e0447516259/output/AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:design:25.3.1] /home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/jirka/.android/build-cache/494d3128cee94a147b34cf692f6816cdc9e4c042/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/jirka/.android/build-cache/c744198bbb7fb8146c4ce7bc46e71bc43dc628c2/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/jirka/.android/build-cache/94cbe165eaf87c6898472cea778f99464e1ce6c0/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] /home/jirka/.android/build-cache/9700d9077bf227e6da53b98e51ea644e77873f76/output/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /home/jirka/.android/build-cache/4fc106dd0c7e0b895459e5c002285680db2700fd/output/AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-auth:9.8.0] /home/jirka/.android/build-cache/d94785f25527214a6487cc2687c7cc3f9e57c365/output/AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-auth-base:9.8.0] /home/jirka/.android/build-cache/3d14c3c1048435e07bef8d9e9c38d1a0218d2426/output/AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services-base:9.8.0] /home/jirka/.android/build-cache/b4ef727ab98d5285471ec9bbae16f0fd5f5877f3/output/AndroidManifest.xml:17:5-42
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/jirka/.android/build-cache/494d3128cee94a147b34cf692f6816cdc9e4c042/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/jirka/.android/build-cache/c744198bbb7fb8146c4ce7bc46e71bc43dc628c2/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/jirka/.android/build-cache/0ee4bf89c9a928b49a34e33064409ad524839ea1/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.3.1] /home/jirka/.android/build-cache/254c82a72cde4322ea313060caaa09fef259ceed/output/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-core:9.8.0] /home/jirka/.android/build-cache/f9cbdd4e157ab254673404936683a2d239f7e3ea/output/AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:9.8.0] /home/jirka/.android/build-cache/b67d06fec82b5cae79f9bb508656499e67aa83ca/output/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /home/jirka/.android/build-cache/e03d054c0d3f0688edd469e0af6b56029110c901/output/AndroidManifest.xml:17:5-42
@@ -146,11 +193,13 @@ MERGED from [com.android.support:support-compat:25.3.1] /home/jirka/.android/bui
 		INJECTED from /home/jirka/Programming/Android Apps/Anatom/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] /home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/jirka/.android/build-cache/94cbe165eaf87c6898472cea778f99464e1ce6c0/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/jirka/.android/build-cache/9700d9077bf227e6da53b98e51ea644e77873f76/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/jirka/.android/build-cache/494d3128cee94a147b34cf692f6816cdc9e4c042/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/jirka/.android/build-cache/c744198bbb7fb8146c4ce7bc46e71bc43dc628c2/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/jirka/.android/build-cache/94cbe165eaf87c6898472cea778f99464e1ce6c0/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /home/jirka/.android/build-cache/9700d9077bf227e6da53b98e51ea644e77873f76/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/jirka/.android/build-cache/0ee4bf89c9a928b49a34e33064409ad524839ea1/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] /home/jirka/.android/build-cache/254c82a72cde4322ea313060caaa09fef259ceed/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] /home/jirka/.android/build-cache/cf8c646581c58d4aa88fe9c49862976304945e57/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] /home/jirka/.android/build-cache/a5b782480f31bab6b0ffac8b90b9995d92497b9d/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] /home/jirka/.android/build-cache/51fe39e743862360268e9f0811d843812af1ad18/output/AndroidManifest.xml:25:5-27:34
@@ -187,6 +236,18 @@ ADDED from [com.google.android.gms:play-services-base:9.8.0] /home/jirka/.androi
 		ADDED from [com.google.android.gms:play-services-base:9.8.0] /home/jirka/.android/build-cache/b4ef727ab98d5285471ec9bbae16f0fd5f5877f3/output/AndroidManifest.xml:19:86-145
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:9.8.0] /home/jirka/.android/build-cache/b4ef727ab98d5285471ec9bbae16f0fd5f5877f3/output/AndroidManifest.xml:19:19-85
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/AndroidManifest.xml:44:9-47:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/AndroidManifest.xml:46:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/AndroidManifest.xml:45:13-70
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-analytics:9.8.0] /home/jirka/.android/build-cache/b67d06fec82b5cae79f9bb508656499e67aa83ca/output/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /home/jirka/.android/build-cache/e03d054c0d3f0688edd469e0af6b56029110c901/output/AndroidManifest.xml:22:5-67

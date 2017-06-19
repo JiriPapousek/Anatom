@@ -38,17 +38,15 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginTop="8dp"
-        android:layout_below="@id/signInButton"
-        android:background="#D00B0B"
-        android:text="with google+"
-        android:textColor="#FFFFFF"/>
-    <Button
+        android:layout_below="@id/signInButton" />
+
+    <com.facebook.login.widget.LoginButton
         android:id="@+id/signInWithFacebookButton"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
         android:layout_marginTop="8dp"
-        android:layout_below="@id/signInWithGoogleButton"
-        android:background="#0B40A0"
-        android:text="with facebook"
-        android:textColor="#FFFFFF"/>
+        android:layout_below="@+id/signInWithGoogleButton"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content" />
 </RelativeLayout>

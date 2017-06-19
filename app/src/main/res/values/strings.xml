@@ -2,4 +2,6 @@
     <string name="app_name">Anatom</string>
     <string name="title_activity_menu">MenuActivity</string>
     <string name="server_client_id">352878300544-7n4g02bgdag6mona688a93npauir6o30.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">137135203525659</string>
+    <string name="fb_login_protocol_scheme">fb137135203525659</string>
 </resources>

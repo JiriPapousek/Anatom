@@ -8,10 +8,16 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.facebook.CallbackManager;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.login.LoginResult;
+import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
@@ -26,6 +32,9 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
+
 /**
  * Created by jirka on 7.6.17.
  */
@@ -35,15 +44,14 @@ public class LoginActivity extends FragmentActivity {
     EditText userNameEditText;
     EditText passwordEditText;
     SignInButton signInWithGoogleButton;
+    LoginButton signInWithFacebookButton;
 
     private HTTPService service;
     int status;
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    private GoogleApiClient client;
+
     GoogleApiClient mGoogleApiClient;
+
+    CallbackManager callbackManager;
 
 
     @Override
@@ -55,9 +63,12 @@ public class LoginActivity extends FragmentActivity {
         userNameEditText = (EditText) findViewById(R.id.userNameEditText);
         passwordEditText = (EditText) findViewById(R.id.passwordEditText);
         signInWithGoogleButton = (SignInButton) findViewById(R.id.signInWithGoogleButton);
+        signInWithFacebookButton = (LoginButton) findViewById(R.id.signInWithFacebookButton);
 
         service = new HTTPService();
-
+        /*---------------------------------------------*/
+        /*  SIGN IN WITH GOOGLE */
+        /*---------------------------------------------*/
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
                 .requestServerAuthCode(getString(R.string.server_client_id))
@@ -81,7 +92,31 @@ public class LoginActivity extends FragmentActivity {
                 startActivityForResult(signInIntent, 10);
             }
         });
+        /*---------------------------------------------*/
+        /*  SIGN IN WITH FACEBOOK */
+        /*---------------------------------------------*/
+        callbackManager = CallbackManager.Factory.create();
+        signInWithFacebookButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+            @Override
+            public void onSuccess(LoginResult loginResult) {
+                String accessToken = loginResult.getAccessToken()
+                        .getToken();
+                Log.i("FBAccessToken", accessToken);
+            }
 
+            @Override
+            public void onCancel() {
+                Log.i("Facebook sign in result", "CANCEL");
+            }
+
+            @Override
+            public void onError(FacebookException error) {
+                Log.i("Facebook sign in result", "ERROR");
+            }
+        });
+        /*---------------------------------------------*/
+        /*  SIGN IN WITH PASSWORD */
+        /*---------------------------------------------*/
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -131,29 +166,14 @@ public class LoginActivity extends FragmentActivity {
         @Override
         protected void onPostExecute(Integer status) {
             if (status == 200) {
+                Intent resultIntent = new Intent();
+                resultIntent.putExtra("success", true);
+                setResult(RESULT_OK, resultIntent);
                 finish();
             } else if (status == 401) {
-                AlertDialog alertDialog = new AlertDialog.Builder(LoginActivity.this).create();
-                alertDialog.setTitle("Password or username does not match.");
-                alertDialog.setMessage("Please try again.");
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.dismiss();
-                            }
-                        });
-                alertDialog.show();
+                showSimpleDialog("Password or username does not match.","Please try again.");
             } else {
-                AlertDialog alertDialog = new AlertDialog.Builder(LoginActivity.this).create();
-                alertDialog.setTitle("Something unexpected happened. (error " + status + ")");
-                alertDialog.setMessage("Please try again.");
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.dismiss();
-                            }
-                        });
-                alertDialog.show();
+                showSimpleDialog("Something unexpected happened. (error " + status + ")","Please try again.");
             }
         }
     }
@@ -161,6 +181,7 @@ public class LoginActivity extends FragmentActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        callbackManager.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == 10) {
             GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
@@ -171,20 +192,27 @@ public class LoginActivity extends FragmentActivity {
     private void handleSignInWithGoogleResult(GoogleSignInResult result) {
         if (result.isSuccess()) {
             GoogleSignInAccount acct = result.getSignInAccount();
-            userNameEditText.setText(acct.getServerAuthCode());
+            Log.i("GoogleAccessToken",acct.getIdToken());
         } else {
-            AlertDialog alertDialog = new AlertDialog.Builder(LoginActivity.this).create();
-            alertDialog.setTitle("Something unexpected happened.");
-            alertDialog.setMessage("Please try again.");
-            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                    new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            dialog.dismiss();
-                        }
-                    });
-            alertDialog.show();
+            showSimpleDialog("Something unexpected happened.","Please try again.");
         }
     }
+
+    /* Creates simple alert dialog, usually for displaying some error. */
+    private void showSimpleDialog(String title, String message){
+        AlertDialog alertDialog = new AlertDialog.Builder(LoginActivity.this).create();
+        alertDialog.setTitle(title);
+        alertDialog.setMessage(message);
+        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+        alertDialog.show();
+    }
+
+    /* Disables user to get back to previous activity. */
     @Override
     public void onBackPressed() {
         moveTaskToBack(true);

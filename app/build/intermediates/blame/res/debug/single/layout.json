@@ -44,6 +44,10 @@
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/layout/abc_dialog_title_material.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_round.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/layout/messenger_button_send_blue_round.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
         "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/layout/design_navigation_item_separator.xml"
     },
@@ -74,6 +78,10 @@
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
         "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/com_facebook_activity_layout.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/layout/com_facebook_activity_layout.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
@@ -112,12 +120,24 @@
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/messenger_button_send_white_large.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/layout/messenger_button_send_white_large.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_small.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/layout/messenger_button_send_blue_small.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
         "source": "/home/jirka/.android/build-cache/82ef6a15e13a1b584d88ab1f5b3d30ac1d6bf4f7/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/com_facebook_tooltip_bubble.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/layout/com_facebook_tooltip_bubble.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
@@ -128,12 +148,24 @@
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/layout/abc_action_menu_layout.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/com_facebook_smart_device_dialog_fragment.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/layout/com_facebook_smart_device_dialog_fragment.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/layout/abc_screen_toolbar.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/messenger_button_send_white_small.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/layout/messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_large.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/layout/messenger_button_send_blue_large.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
@@ -172,8 +204,16 @@
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/layout/notification_template_lines_media.xml"
     },
     {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/com_facebook_login_fragment.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/layout/com_facebook_login_fragment.xml"
+    },
+    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/home/jirka/Programming/Android Apps/Anatom/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/com_facebook_device_auth_dialog_fragment.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/layout/com_facebook_device_auth_dialog_fragment.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
@@ -214,6 +254,10 @@
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/messenger_button_send_white_round.xml",
+        "source": "/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/res/layout/messenger_button_send_white_round.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",

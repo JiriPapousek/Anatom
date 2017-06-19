@@ -66,6 +66,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/jirka/.android/build-cache/254c82a72cde4322ea313060caaa09fef259ceed/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/classes_af4ef486885c6b95ba45e3930b3dcb4ec98a17eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jirka/.android/build-cache/0ee4bf89c9a928b49a34e33064409ad524839ea1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/classes_ef97551f0f25594f73940ece1fdf1fa8c177ca09.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/jirka/.android/build-cache/b67d06fec82b5cae79f9bb508656499e67aa83ca/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -165,6 +183,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/jirka/.android/build-cache/127ba0fe3c1145bda2a4104ce7aa7d5845238190/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4504ae3ec47953f3d0c324dc66996aecfb7fbb5c">
+        <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/classes_60e666cd356b3e40997033d328283c55b7879e6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/jirka/.android/build-cache/11b1eae243077166598e2ecd40bc2e0447516259/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -192,6 +219,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/jirka/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_0b3866ad522bd3828905bd18fd241a1b3ee28542.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/jirka/.android/build-cache/ba35cc597c6c2ea2bd692facd1d093b8412be923/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -207,6 +243,15 @@
         revision="25.0.2"
         sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
         <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/classes_487cc2ea3765c782a8affa720bcd144f678aab41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jirka/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_d7ae96eb5c130370944532f12a418aeb82fc2787.jar" />
     </item>
     <item
         is-multidex="false"
