@@ -14,5 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:text="Success."
-        android:textSize="32dp"/>
+        android:textSize="32dp"
+        android:id="@+id/successTextView"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/buttonPanel"
+        android:layout_below="@id/successTextView">
+    </LinearLayout>
 </RelativeLayout>

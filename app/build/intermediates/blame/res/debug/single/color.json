@@ -24,12 +24,12 @@
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
         "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/home/jirka/.android/build-cache/226c501e3cc018b1135e5eec8753c6e6097e47b9/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
         "merged": "/home/jirka/Programming/Android Apps/Anatom/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",

@@ -1,6 +1,7 @@
 package com.example.jirka.anatom;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
@@ -66,12 +67,13 @@ public class LoginActivity extends FragmentActivity {
         signInWithFacebookButton = (LoginButton) findViewById(R.id.signInWithFacebookButton);
 
         service = new HTTPService();
+
         /*---------------------------------------------*/
         /*  SIGN IN WITH GOOGLE */
         /*---------------------------------------------*/
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
-                .requestServerAuthCode(getString(R.string.server_client_id))
+                /*.requestServerAuthCode(getString(R.string.server_client_id))*/
                 .requestIdToken(getString(R.string.server_client_id))
                 .build();
 
@@ -102,6 +104,7 @@ public class LoginActivity extends FragmentActivity {
                 String accessToken = loginResult.getAccessToken()
                         .getToken();
                 Log.i("FBAccessToken", accessToken);
+                new UserLoginTask(accessToken,"facebook").execute();
             }
 
             @Override
@@ -129,7 +132,7 @@ public class LoginActivity extends FragmentActivity {
         final String username = userNameEditText.getText().toString();
         final String password = passwordEditText.getText().toString();
 
-        new UserLoginTask(username, password).execute();
+        new UserLoginTask(username, password, this).execute();
     }
 
 
@@ -137,10 +140,23 @@ public class LoginActivity extends FragmentActivity {
 
         private final String username;
         private final String password;
+        Context context;
+        private final String token;
+        String typeOfSignIn; /* values: "password", "google", or "facebook" */
 
-        UserLoginTask(String username, String password) {
+        UserLoginTask(String username, String password, Context context) {
             this.username = username;
             this.password = password;
+            this.context = context;
+            this.typeOfSignIn = "password";
+            this.token = "";
+        }
+
+        UserLoginTask(String token, String typeOfSignIn){
+            this.token = token;
+            this.typeOfSignIn = typeOfSignIn;
+            this.username = "";
+            this.password = "";
         }
 
         private Exception exception;
@@ -149,27 +165,35 @@ public class LoginActivity extends FragmentActivity {
         protected Integer doInBackground(Void... params) {
             status = 0;
             service.createSession();
-            try {
-                JSONObject loginData = new JSONObject();
-                try {
-                    loginData.put("username", username);
-                    loginData.put("password", password);
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-                status = service.post(Constants.SERVER_NAME + "user/login/", loginData.toString());
-            } catch (Exception e) {
-                this.exception = e;
+            switch (typeOfSignIn) {
+                case "password":
+                    try {
+                       JSONObject loginData = new JSONObject();
+                        try {
+                            loginData.put("username", username);
+                            loginData.put("password", password);
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                        status = service.post(Constants.SERVER_NAME + "user/login/", loginData.toString());
+                    } catch (Exception e) {
+                        this.exception = e;
+                    }
+                    break;
+                case "google":
+                    Log.i("url",Constants.SERVER_NAME + "auth-by-token/google-oauth2/?access_token=" + token);
+                    Log.i("Response", service.get(Constants.SERVER_NAME + "auth-by-token/google-oauth2/?access_token=" + token).toString());
+                case "facebook":
+                    Log.i("Response", service.get(Constants.SERVER_NAME + "auth-by-token/facebook/?access_token=" + token).toString());
+                default: break;
             }
             return status;
         }
         @Override
         protected void onPostExecute(Integer status) {
             if (status == 200) {
-                Intent resultIntent = new Intent();
-                resultIntent.putExtra("success", true);
-                setResult(RESULT_OK, resultIntent);
-                finish();
+                Intent intent = new Intent(context, MenuActivity.class);
+                startActivity(intent);
             } else if (status == 401) {
                 showSimpleDialog("Password or username does not match.","Please try again.");
             } else {
@@ -192,9 +216,10 @@ public class LoginActivity extends FragmentActivity {
     private void handleSignInWithGoogleResult(GoogleSignInResult result) {
         if (result.isSuccess()) {
             GoogleSignInAccount acct = result.getSignInAccount();
-            Log.i("GoogleAccessToken",acct.getIdToken());
+            Log.i("GoogleAccessToken", acct.getIdToken());
+            new UserLoginTask(acct.getIdToken(),"google").execute();
         } else {
-            showSimpleDialog("Something unexpected happened.","Please try again.");
+            showSimpleDialog("Something unexpected happened.", "Please try again.");
         }
     }
 
